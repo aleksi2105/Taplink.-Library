@@ -8,6 +8,10 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 .page-wrapper {
   overflow: hidden;
   max-width: 390px;
@@ -33,10 +37,10 @@ body {
 .title-wrapper {
   margin-top: -50px;
   margin-bottom: 9px;
+  height: 105px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
-  height: 105px;
   box-shadow: 7px 4px 13px -3px rgba(0, 0, 0, 0.25);
   background: #c5e8d9;
 }
@@ -79,4 +83,56 @@ body {
   letter-spacing: 0.01em;
   text-align: center;
   color: #14682a;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 7px 4px 13px -3px rgba(0, 0, 0, 0.25);
+  background: #c5e8d9;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding: 10px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 241px;
+  margin: auto;
+  gap: 33px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #14682a;
+  box-shadow: 5px 4px 4px 0 rgba(57, 94, 49, 0.25);
+  height: 51px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.button.phone {
+  background: #0ab20a;
+}
+
+.button.tg {
+  background: #27a7e7;
+}
+
+.button.vk,
+.button.map {
+  max-width: 241px;
+  margin: auto;
+  margin-bottom: 15px;
+  background: #27a7e7;
+}
+
+.btn-text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 121%;
+  letter-spacing: 0.01em;
+  color: #fff;
 }
